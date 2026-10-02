@@ -44,10 +44,21 @@ Booking.com 8.9/10 (1018), Google 4.6/5 (256). Знімок на 30.09.2026, п�
 - Address: вул. Миколи Гоголя, 7А, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#garden` Відпочинок просто неба
 
 ## Not published
 Кількість кімнат і ліжок, типи дормів, зірковість (Google Hotels показує 3★, але це хостел), email, сайт, Instagram. Телефон +380 50 999 6141 (один варіант Google Hotels мав +380 95 048 4543) — бажано підтвердити.
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: отримати фото саду й тераси — вони мають стати головним візуалом сторінки
+- [ ] TODO: підтвердити телефон (+380 50 999 6141 чи +380 95 048 4543)
+- [ ] TODO: уточнити кількість ліжок у загальному номері (назва «8-місний», у таблиці Booking 6 ліжок)
+- [ ] TODO: уточнити, чи є камера зберігання багажу й парковка (у джерелах не згадано)
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-pelican`): `stay-request` (хостельний варіант зі статтю гостей). Документ `hotels/ch-pelican` у Firestore треба створити вручну, інакше правила відхилять заявки.
